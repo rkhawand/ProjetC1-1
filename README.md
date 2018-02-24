@@ -1,4 +1,4 @@
-![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Tomcat-logo.svg/2000px-Tomcat-logo.svg.png)
+![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1TMG5of1htgEp5JdeHWiKIv__jVMSkiHG-7lEhaDs2QlAtrgM)
 
 Tomcat Server
 
