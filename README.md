@@ -4,15 +4,15 @@ Implémentation de protocole  SSL dans TOMCAT
 
 - Introduction
 - Apache Tomcat
-        - Fonctionnalité
-        - Connecteurs
-        - Serveur Web/Application
+  - Fonctionnalité
+  - Connecteurs
+  - Serveur Web/Application
 - SSL (Secure Socket Layer)
-        - Fonctionnement 
-        - Aspects Cryptographiques
-        - Certificats
-        - Utilisation de SSL
-        - Avantages
+  - Fonctionnement 
+  - Aspects Cryptographiques
+  - Certificats
+  - Utilisation de SSL
+  - Avantages
 - Implémentation SSL dans TOMCAT
 
 
