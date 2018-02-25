@@ -20,16 +20,20 @@
 
 ## Exemples:
 
-1- Exécutez la commande suivante pour générer le certificat: 
-Keytool - genkeypair - alias MyCert  -keyalg RSA - keystore “C:\Users\roudy\MyCert.cert”
-2- Répondez aux questions posées
-3- Modifier le fichier server.xml (C:\Program Files\Apache Software Foundation\Tomcat 9.0\conf)
-4- Ajouter un connecteur SSL
+1. Exécutez la commande suivante pour générer le certificat: 
+```
+Keytool - genkeypair - alias MyCert  -keyalg RSA -keystore “C:\Users\roudy\MyCert.cert”
+```
+2. Répondez aux questions posées
+3. Modifier le fichier server.xml (C:\Program Files\Apache Software Foundation\Tomcat 9.0\conf)
+4. Ajouter un connecteur SSL
+```
 <Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
                maxThreads="150" SSLEnabled="true" scheme="https" secure="true" 
                clientAuth="false" sslProtocole="TLS" keystoreFile="C:\Users\roudy\MyCert.cert" 
                keystorePass="123456"/>
-5- Redémarrer Tomcat
+```
+5. Redémarrer Tomcat
 
 
 ## Liens Utils:
