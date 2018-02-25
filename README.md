@@ -31,7 +31,8 @@ Keytool - genkeypair - alias MyCert  -keyalg RSA -keystore “C:\Users\roudy\MyC
 <Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
                maxThreads="150" SSLEnabled="true" scheme="https" secure="true" 
                clientAuth="false" sslProtocole="TLS" keystoreFile="C:\Users\roudy\MyCert.cert" 
-               keystorePass="123456"/>
+               keystorePass="123456">
+</Connector>
 ```
 5. Redémarrer Tomcat
 
